@@ -31,7 +31,6 @@ macro index,pager <F5> ":source $my_path/neomuttrc\n" "Reload the muttrc"
 # switch account keys
 macro index,pager <f6> '<sync-mailbox><enter-command>source "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.password-store/email/mutt-hr.gpg |"<enter><change-folder>!<enter>'
 macro index,pager <f7> '<sync-mailbox><enter-command>source "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.password-store/email/mutt-mfr.gpg |"<enter><change-folder>!<enter>'
-macro index,pager <f8> '<sync-mailbox><enter-command>source "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.password-store/email/mutt-fv.gpg |"<enter><change-folder>!<enter>'
 
 
 # sidebar
